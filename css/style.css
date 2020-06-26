@@ -353,7 +353,7 @@ a.nav-link.login:hover {
 }
 
 .banner-question{
-	background-image: url(/img/text-on-shelf-256417.jpg);
+	background-image: url(../img/text-on-shelf-256417.jpg);
 	background-size: cover;
 	background-position: center;
 	height: 300px;
