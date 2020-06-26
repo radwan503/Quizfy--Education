@@ -545,6 +545,9 @@ border: 1px solid #ddd;
 .btn-simple{
 	background-color: #ff6347;
 }
+.social-icon a {
+    color: #222;
+}
 .footer {
     padding: 0 0 70px 0;
     background-color: #212F3D;
