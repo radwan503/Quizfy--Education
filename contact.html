@@ -1,0 +1,233 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Site Title Here</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <section class="header-section">
+        <div class="nav-menu-content">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-dark-gray custom-navbar pad-15">
+                <div class="container">
+                    <a class="navbar-brand" href="./index.html"><img src="/img/logo.png" /></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Home <span class="sr-only"></span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./about.html">About</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    courses
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="./courses.html">Courses</a>
+                                    <a class="dropdown-item" href="./course-details.html">Courses Details</a>
+                                </div>
+                            </li>
+                            
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contact.html">Contact</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link login" href="#">Login
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <div class="banner-question">
+        <div class="opacity-overlay " data-opacity-mask="rgba(0, 0, 0, 0.8)"
+        style="background-color: rgba(0, 0, 0, 0.8);">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6">
+                <div class="question-title">
+                    <h3>Contact</h3>
+                    <h6>Want say something.Feel free to contact us.</h6>
+                </div>
+            </div>
+        </div>
+        </div>    
+    </div>
+
+    <section class="contact pt-60 pb-60">
+        <div class="container">
+            <form id="contact-form" class="contact-form" method="post" role="form">        
+                <div class="controls">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">Firstname *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_lastname">Lastname *</label>
+                                <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_need">Please specify your course *</label>
+                                <select id="form_need" name="need" class="form-control" required="required" data-error="Please specify your need.">
+                                    <option value=""></option>
+                                    <option value="Web Development">Web Development</option>
+                                    <option value="Artificial Intelligence">Artificial Intelligence</option>
+                                    <option value="Data Science">Data Science</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
+                    </div>
+                    
+                </div>
+            
+            </form>
+        </div>
+    </section>
+
+    <footer class="copyright">
+        <div class="container">
+            <div class="copyright-content">
+               <img src="img/logo.png">
+                <p>All right reserved by @minhaj 2020</p>
+            
+            </div>
+        </div>
+        
+    </footer>
+
+<section class="footer">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path fill="#ffff" fill-opacity="1" d="M0,256L240,64L480,160L720,128L960,224L1200,256L1440,96L1440,0L1200,0L960,0L720,0L480,0L240,0L0,0Z"></path>
+      </svg>
+    <div class="container">
+        <div class="footer-content">
+        <div class="row">
+            <div class="col-sm-3">
+                <a class="socialbox facebook" href="#">
+                    <div class="social-icon">
+                            <i class="fab fa-facebook-square"></i>
+                    </div>
+                    <div class="description">
+                        <span class="ng-binding-shares"></span>
+                        <span class="ng-binding-likes"></span>
+                        <span>Like us on Facebook!</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a class="socialbox twitter" href="#">
+                    <div class="social-icon">
+                            <i class="fab fa-twitter-square"></i>
+                    </div>
+                    <div class="description">
+                        <span class="ng-binding"></span>
+                        <span>Follow us on Twitter!</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a class="socialbox pinterest" href="#">
+                    <div class="social-icon">
+                            <i class="fab fa-github-square"></i>
+                    </div>
+                    <div class="description">
+                        <span class="ng-binding"></span>
+                        <span>Find us on Github!</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-sm-3">
+                <a class="socialbox linkedin" href="#">
+                    <div class="social-icon">
+                            <i class="fab fa-linkedin"></i>
+                    </div>
+                    <div class="description">
+                        <span class="ng-binding"></span>
+                        <span>Find us on LinkedIn!</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+    
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

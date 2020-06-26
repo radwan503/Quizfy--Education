@@ -113,6 +113,16 @@ hr {
 .pad-15{
 	padding: 15px;;
 }
+.pt-60{
+	padding-top: 80px;
+}
+.pb-60{
+	padding-bottom: 80px;
+}
+.mt-10{
+	margin-top: 10px;
+}
+
 /* button style */
 
 .btn {
@@ -177,7 +187,7 @@ hr {
 .opacity-overlay{
 	width: 100%;
     height: 100%;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     top: 0;
     z-index: 2;
@@ -193,7 +203,7 @@ hr {
 	margin: 0px auto 25px;
 	color: #fff;
 }
-.header-content-body span {
+.bold-color {
     color: #fcc741;
 }
 .banner-img {
@@ -267,3 +277,329 @@ a.nav-link.login:hover {
     z-index: p;
     z-index: 9;
 }
+.what-we-do-content h1{
+	font-size: 72px;
+    line-height: 85px;
+    font-weight: 600;
+    letter-spacing: 0px;
+	margin: 0px auto 25px;
+	color: #222;
+}
+.what-we-do-content p{
+	font-size: 18px;
+    letter-spacing: 0px;
+	margin: 0px auto 25px;
+	color: #222;
+}
+.what-we-do-image {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    right: -35px;
+    display: table;
+    z-index: -1;
+}
+.what-we-do-image img {
+    display: table-cell;
+    vertical-align: bottom;
+}
+.counter {
+    text-align: center;
+    margin-top: 8%;
+}
+.counter-img {
+    height: 100%;
+    width: 100%;
+}
+.counter-img img {
+    height: 60px;
+}
+
+.counter-count
+{
+    font-size: 18px;
+    position: relative;
+    color: #222;
+    text-align: center;
+    display: inline-block;
+}
+.counter-box {
+    padding: 22px;
+}
+.counter-box h4{
+	font-weight: bold;
+	color: #fff;
+}
+.counter-box p{
+	font-weight: bold;
+	color: #fff;
+}
+.our-courses {
+    background-color: #f3f8fc;
+}
+.courses-details img {
+    height: 60px;
+}
+.course-header {
+    text-align: center;
+}
+.courses-details {
+	height: 100%;
+    width: 100%;
+    background-color: orange;
+    padding: 65px;
+    text-align: center;
+    
+}
+
+.banner-question{
+	background-image: url(/img/text-on-shelf-256417.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 300px;
+	margin-top: 105px;;
+}
+.question-title {
+    padding: 80px 0;
+}
+.question-title h3{
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+}
+.question-title h6{
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+}
+.question-counter {
+    padding: 116px 0;
+    text-align: end;
+}
+.question-counter span{
+	color: #fff;
+	font-family: "Oswald", sans-serif;
+	font-weight: 600;
+}
+.course-details {
+	background: gray url(../image/feature-jobs/recomended-bg.jpeg) repeat 0 0;
+	width: 100%;
+	margin: 0;
+	  background-color: #138D75;
+	text-align: center;
+	padding:150px;
+	box-sizing: border-box;
+	margin-top: -25px;
+  }
+  
+  .course-details h2{
+  font-family: sans-serif;
+	  color: #138D75;
+	  font-size: 55px;
+	  font-weight: 700;
+  }
+
+.details-pic {
+  display: block;
+  width: 140px;
+  background: #fff;
+  border: 2px solid #138D75;
+  height: 140px;
+  border-radius: 50%;
+  margin: 0 auto;
+  position: relative;
+  -webkit-transform: translateY(-60px);
+  -o-transform: translateY(-60px);
+  transform: translateY(-60px);
+}
+.details-pic img{
+ height: 136px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.white-shadow{
+  -o-transform: translateY(-80px);
+  transform: translateY(-80px);
+  background: #fff;
+  border-bottom: 3px solid #ff6347;
+  box-shadow: 0 0 10px 2px rgba(0,0,0,.1);
+}
+.course-basic-info ul li{
+	display: block;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.get-in-touch ul li{
+    display: block;
+    margin-top: 10px;
+    list-style: none;
+}
+.get-in-touch ul li i{
+    margin-right: 10px;
+}
+.detail-panel-social-icon ul li{
+    display: inline-block;
+    margin-right: 10px;
+    
+}
+.detail-border{
+border: 1px solid #ddd;
+    
+}
+.details-course-body {
+    padding: 0 40px;
+}
+.basic-info {
+    text-align: right;
+   
+}
+.detail-panel-social-icon ul li i{
+    background-color: #fcc741;
+     width: 42px;
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 2px;
+    color: #fff;
+    transition: all ease-in-out .4s;
+}
+.apply-quiz-btn{
+	background-color: #fcc741;
+}
+.button-footer {
+    text-align: right;
+    padding: 0 38px;
+}
+.mentor{
+	background-color: #f3f8fc;
+}
+.mentor .card {
+    background: #fff;
+    margin-bottom: 30px;
+    transition: .5s;
+    border: 0;
+    border-radius: .1875rem;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    box-shadow: none;
+}
+.mentor .card .body {
+    font-size: 14px;
+    color: #424242;
+    padding: 20px;
+    font-weight: 400;
+}
+.profile-page .profile-header {
+    position: relative
+}
+
+.profile-page .profile-header .profile-image img {
+    border-radius: 50%;
+    width: 140px;
+    border: 3px solid #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23)
+}
+
+.profile-page .profile-header .social-icon a {
+    margin: 0 5px
+}
+
+.profile-page .profile-sub-header {
+    min-height: 60px;
+    width: 100%
+}
+
+.profile-page .profile-sub-header ul.box-list {
+    display: inline-table;
+    table-layout: fixed;
+    width: 100%;
+    background: #eee
+}
+
+.profile-page .profile-sub-header ul.box-list li {
+    border-right: 1px solid #e0e0e0;
+    display: table-cell;
+    list-style: none
+}
+
+.profile-page .profile-sub-header ul.box-list li:last-child {
+    border-right: none
+}
+
+.profile-page .profile-sub-header ul.box-list li a {
+    display: block;
+    padding: 15px 0;
+    color: #424242
+}
+.contact-form {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0px 0px 1px 1px #f2f2f2;
+    padding: 3%;
+}
+.btn-simple{
+	background-color: #ff6347;
+}
+.footer {
+    padding: 0 0 70px 0;
+    background-color: #212F3D;
+}
+.footer a.socialbox {
+	font-family: "Open Sans";
+	font-weight: 300;
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	width: 100%;
+	padding: 15px;
+  }
+  
+  .footer a.socialbox.facebook {
+	background-color: #2980b9;
+	-webkit-transition: background-color 0.25s ease-in-out;
+	transition: background-color 0.25s ease-in-out;
+  }
+  .footer a.socialbox.twitter {
+	background-color: #3498db;
+	-webkit-transition: background-color 0.25s ease-in-out;
+	transition: background-color 0.25s ease-in-out;
+  }
+  .footer a.socialbox.pinterest {
+	background-color: #c0392b;
+	-webkit-transition: background-color 0.25s ease-in-out;
+	transition: background-color 0.25s ease-in-out;
+  }
+  .footer a.socialbox.linkedin {
+	background-color: #34495e;
+	-webkit-transition: background-color 0.25s ease-in-out;
+	transition: background-color 0.25s ease-in-out;
+  }
+  
+  .footer a.socialbox .social-icon {
+	line-height: 32px;
+	font-size: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	border-right: 1px solid rgba(255, 255, 255, 0.25);
+	padding-right: 15px;
+  }
+  .footer a.socialbox .description {
+	display: inline-block;
+	vertical-align: middle;
+	padding-left: 10px;
+	font-size: 13px;
+  }
+  
+  .footer a.socialbox .description span {
+	display: block;
+	line-height: 16px;
+  }
+  .copyright-content{
+	  margin: 0 auto;
+	  text-align: center;
+  }
