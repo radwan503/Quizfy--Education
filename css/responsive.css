@@ -21,8 +21,17 @@
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
-
- 
+    .button-footer {
+    text-align: left;
+    padding: 0 38px;
+    margin-bottom: 10px;
+}
+.basic-info {
+    text-align: left;
+}
+ .course-basic-info {
+    margin-left: -39px;
+}
 }
  
 /* Large Mobile :480px. */
